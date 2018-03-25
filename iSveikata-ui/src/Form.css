@@ -1,0 +1,60 @@
+.formErrors {
+	color: #cc0000;
+	font-weight: bold;
+	text-align: left;
+	height: 100px;
+}
+
+.form-control:focus, #is-valid:focus, #is-invalid:focus, .is-valid:focus, .is-invalid:focus {
+	border-color: #0066cc;
+	box-shadow: none !important;
+    outline: none !important;
+}
+
+#is-valid, .is-valid {
+	border-color: #00b300;
+	box-shadow: none !important;
+    outline: none !important;
+}
+
+#is-invalid, .is-invalid {
+	border-color: #cc0000;
+	box-shadow: none !important;
+    outline: none !important;
+}
+
+textarea {
+	resize: vertical;
+	overflow: auto;
+	min-height: 100px;
+}
+
+label {
+	color: #000000 !important;
+}
+
+h2 {
+	padding-bottom: 30px;
+}
+
+.signin-form {
+	padding: 30px;
+	border-style: solid;
+    border-width: 1px;
+	border-radius: 5px;
+	border-color: #b0b0b1;
+	text-align: center;
+}
+
+.help-block {
+	text-align: left;
+}
+
+.form-control {
+	border-width: 2px;
+}
+
+select + span {
+	padding-right: 30px;
+}
+
